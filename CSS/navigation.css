@@ -34,21 +34,12 @@ h1 {
   padding-left: 30px;
   line-height: 170%;
 }
-.follow-us-insta {
-  list-style: none;
-  padding-left: 0;
-}
-.follow-us-insta li {
-  position: relative;
-  padding-left: 30px;
-  line-height: 170%;
-}
 .follow-us-insta li:before {
   content: '';
   width: 20px;
   height: 20px;
   position: absolute;
-  background-image: url('instagram');
+  background-image: url('../instagram.jpg');
   background-size: cover;
   background-position: center;
   left: 0;
