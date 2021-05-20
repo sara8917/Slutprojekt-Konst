@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #f4f1fa;
 }
 
 .navbar li a {
   display: block;
-  color: #FAE6FA;
+  color: #000000;
   padding: 80px 160px;
   text-decoration: none;
 }
 
 .navbar li a:hover {
-  background-color: #555;
+  background-color: #FAE6FA;
   color: #FAE6FA;
 }
