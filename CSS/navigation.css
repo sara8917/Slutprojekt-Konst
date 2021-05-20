@@ -48,7 +48,7 @@ h1 {
   width: 20px;
   height: 20px;
   position: absolute;
-  background-image: url('instagram');
+  background-image: url('../instagram.jpg');
   background-size: cover;
   background-position: center;
   left: 0;
