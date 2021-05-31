@@ -250,7 +250,7 @@ font-size: 19px;
   border-collapse: collapse;
 }
 .table-1 tr:hover {
-  background-color: rgb(242, 223, 253);
+  background-color: rgb(244, 231, 252);
   color: rgb(17, 17, 13);
 }
 .important_points{
@@ -370,8 +370,4 @@ mark {
   margin-right: auto;
   max-width: 50%;
   position: relative;
-}
-.table-1 tr:hover {
-  background-color: rgb(242, 223, 253);
-  color: rgb(17, 17, 13);
 }
