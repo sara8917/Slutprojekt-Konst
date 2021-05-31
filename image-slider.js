@@ -33,5 +33,4 @@ imageArray[i].style.display = "none";
 }
 
 imageArray[imageCounter - 1].style.display = "block";
-
 }
