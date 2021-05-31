@@ -2,13 +2,13 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 250px;
   background-color: #f4f1fa;
 }
 .navbar li a {
   display: block;
   color: #000000;
-  padding: 80px 160px;
+  padding: 40px 80px;
   text-decoration: none;
 }
 .navbar li a:hover {
@@ -16,19 +16,18 @@
   color: #000000;
 }
 
-h1 {
-    width:500px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 47px;
-}
 
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 47px;
+  margin-top: 60px;
+}
 
 .follow-us-insta {
   list-style: none;
   padding-left: 0;
 }
-
 .follow-us-insta li {
   position: relative;
   padding-left: 30px;
@@ -46,3 +45,322 @@ h1 {
   top: 50%;
   transform: translateY(-50%) 
 }
+
+.follow-us-youtube {
+  list-style: none;
+  padding-left: 0;
+}
+.follow-us-youtube li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 170%;
+}
+.follow-us-youtube li:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('../youtube.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) 
+}
+
+.follow-us-snap {
+  list-style: none;
+  padding-left: 0;
+}
+.follow-us-snap li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 170%;
+}
+.follow-us-snap li:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('../snapchat.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) 
+}
+
+.follow-us-gmail {
+  list-style: none;
+  padding-left: 0;
+}
+.follow-us-gmail li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 170%;
+}
+.follow-us-gmail li:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('../gmail.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) 
+}
+
+div.about-us {
+  position: relative;
+  right: -400px;
+  bottom: 750px; 
+  width: 400px;
+  height: 400px;
+  line-height: 1.5;
+  border: 3px solid rgb(221, 221, 252);
+  } 
+
+.middle {
+  opacity: 0.15;
+  position: relative;
+  right: -500px; 
+  bottom: -20px;
+}
+.moreinfo {
+  position: relative;
+  right: -400px;
+  bottom: 750px; 
+  width: 400px;
+  height: 250px;
+  line-height: 1.5;
+  border: 3px solid rgb(221, 221, 252);
+
+}
+.makeitmiddle {
+  text-align: center;
+}
+
+.tools {
+  position: relative;
+  bottom: -500px;
+  right: 300px;
+  opacity: 0.1;
+  height: 180px;
+  width: 260px  
+}
+
+.enjoreb {
+  border-radius: 50%;
+  position: relative;
+  bottom: -550px;
+  right: 300px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+
+.table-challenges, th,td {
+    border: 4px solid rgb(222, 253, 215);
+    border-collapse: collapse;
+  }
+  
+.table-challenges, th,td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+.table-challenges th {
+    background-color: rgb(189, 226, 195);
+    color: rgb(255, 255, 255);
+  }
+
+.table-challenges tr:hover {
+    background-color: #effdf2;
+  }
+
+.table-challenges {
+  border-collapse: collapse;  
+  width: 650px;
+  height: 350px;
+  position: relative;  
+  right: -595px;
+  bottom: 550px; 
+}
+.class {
+  opacity: 0.2;
+}
+
+
+div.info {
+  position: relative;
+  right: -550px;
+  bottom: 540px;
+  width: 725px;
+  height: 100px;
+  font-size: 20px;
+  line-height: 1,5;
+  text-align: center;
+  border: 7px solid #d0f8cc;
+}
+
+.list-steps {
+  width: 300px; 
+  line-height: 2;
+  padding: 20px 300px;
+  font-size: 19px;
+  margin-top: -570px;
+  margin-left: 100px;
+  width: 700px;
+}
+.dots{
+  line-height: 1.7;
+}
+
+.important_points {
+width: 500px;
+height: 350px;
+position: relative;  
+right: -595px;
+bottom: 1050px; 
+font-size: 19px;
+}
+
+.table-1 {
+  border-collapse: collapse;  
+  width: 150px;
+  height: 450px;
+  position: relative;  
+  right: -320px;
+  bottom: 530px;
+}
+.table-1, th, td {
+  border:2px solid rgb(61, 38, 66);
+  border-collapse: collapse;
+}
+.table-1 tr:hover {
+  background-color: rgb(242, 223, 253);
+  color: rgb(17, 17, 13);
+}
+.important_points{
+  background-color: rgb(241, 229, 252);
+  height: 540px;
+}
+.doing-it{
+  position: relative;
+  bottom: 1000px;
+  right: -150px;
+  font-size: 17px;
+  width: 500px;
+  background-color: rgb(238, 230, 247);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+div.inspire {
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  right: -900px;
+  bottom: 600px; 
+  width: 300px;
+  height: 150px;
+  line-height: 1.5;
+  border: 4px solid rgb(146, 15, 15);
+  padding-top: 40px;
+}
+
+div.first-photo {
+  position: relative;
+  bottom: 630px;
+  right: -280px;
+}
+
+.second-photo {
+  position: relative;
+  bottom: 1175px;
+  right: -600px;
+} 
+.third-photo {
+  position: relative;
+  bottom: 1450px;
+  left: 950px;
+}
+
+.forth-photo {
+  transform: rotateZ(270deg);
+  position: relative;
+  bottom: 1930px;
+  right: 300px;
+}
+
+.fifth-photo {
+  position: relative;
+  bottom: 1930px;
+  right: -650px;
+}
+
+
+.title {
+  font-size: 21px;
+  text-align: center;
+  position: relative;
+  bottom: 580px;
+  line-height: 1.2;
+}
+
+  
+div.bb-image {
+  font-size: 18px;
+  position: relative;
+  bottom: 500px;
+  right: -300px;
+  line-height: 1.7;
+  width: 800px;
+}
+mark { 
+  background-color:rgb(238, 238, 223);
+  color: black;
+}
+
+.dancing-singer {
+  position: relative;
+  right: -900px;
+  bottom: 1060px;
+  opacity: 0.35;
+  filter: blur(5px);
+}
+
+.newspaper_ti{
+  font-size: 20px;
+  position: relative;
+  bottom: 1020px;
+}
+.newspaper {
+  column-count: 4;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 7px;
+  column-rule-color: rgb(231, 236, 238);
+  width: 900px;
+  font-size: 19px;
+  position: relative;
+  bottom: 1000px;
+  left: 25px;
+  text-align: center;
+}
+.myphone{
+  position: relative;
+  font-size: 21px;
+
+}
+.div-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  position: relative;
+}
+
