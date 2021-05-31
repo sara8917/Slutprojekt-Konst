@@ -229,6 +229,14 @@ bottom: 1050px;
 font-size: 19px;
 }
 
+.learn-image{
+  position: relative;
+  transform: rotateZ(270deg);
+  bottom: 1580px;
+  right: 95px;
+  opacity: 0.55;
+}
+
 .table-1 {
   border-collapse: collapse;  
   width: 150px;
@@ -251,8 +259,8 @@ font-size: 19px;
 }
 .doing-it{
   position: relative;
-  bottom: 1000px;
-  right: -150px;
+  bottom: 1550px;
+  right: -700px;
   font-size: 17px;
   width: 500px;
   background-color: rgb(238, 230, 247);
@@ -363,4 +371,7 @@ mark {
   max-width: 50%;
   position: relative;
 }
-
+.table-1 tr:hover {
+  background-color: rgb(242, 223, 253);
+  color: rgb(17, 17, 13);
+}
